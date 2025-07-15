@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { FaMap, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaMap, FaPhoneAlt, FaEnvelope, FaBehance, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
   const [username, setUsername] = useState("");
@@ -93,15 +93,25 @@ const Contact = () => {
           )}
           <div className="w-full py-10 bg-black flex flex-col md:flex-row px-4 md:items-center justify-between">
             <div className="text-lg font-thin">
-              <p>For enquries</p>
-              <p>
-                or say 'Hello' -{" "}
-                <span className="font-semibold text-designColor">
-                  trishaldesings@gmail.com
+              <p>For enquries or Connect with me at</p>
+              <p className="flex gap-2"> 
+                <FaEnvelope className="bg-designColor"/>
+                <span className="font-semibold">
+                   trishaldesings@gmail.com
                 </span>
               </p>
+              <p className="flex">
+              <a href="https://www.behance.net/trishalbashi" target="_blank" className="flex gap-2"><FaBehance className="bg-designColor"/> <span className="font-semibold">Behance</span></a>
+              </p>
+              <p className="flex">
+              <a href="https://www.linkedin.com/in/trishal-basi-166652213" target="_blank" className="flex gap-2"><FaLinkedin className="bg-designColor"/> <span className="font-semibold">LinkedIn</span></a>
+              </p>
+              <p className="flex">
+              <a href="https://www.instagram.com/bashi.gfx" target="_blank" className="flex gap-2"><FaInstagram className="bg-designColor"/> <span className="font-semibold">Instagram</span></a>
+              </p>
+              
             </div>
-            <a href="https://reactbd.com/" target="_blank">
+            <a href="https://instagram.com/bashi.gfx" target="_blank">
               <p>© 2025 Bashix23 All rights reserved.</p>
             </a>
           </div>

@@ -13,7 +13,7 @@ const Offers = () => {
         </h1>
         <div className="w-full px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-20">
           <OfferCard
-            title="Graphic"
+            title="GRAPHICS"
             subTitle="I design graphics for promotions, banners, and social media to help brands stand out."
             Icon={RxCopy}
           />
@@ -23,12 +23,12 @@ const Offers = () => {
             Icon={SiAntdesign}
           />
           <OfferCard
-            title="Social Media"
+            title="SOCIALMEDIA"
             subTitle="I manage social media accounts to grow audiences and boost engagement."
             Icon={FaChartPie}
           />
           <OfferCard
-            title="Sales"
+            title="SALES"
             subTitle="I develop sales plans that drive growth and improve customer relationships."
             Icon={FaConnectdevelop}
           />

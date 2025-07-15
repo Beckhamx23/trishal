@@ -40,7 +40,7 @@ const Contact = () => {
             </div>
             <div className="flex flex-col items-center gap-3">
               <FaPhoneAlt className="text-4xl text-designColor" />
-              <p className="text-sm tracking-wide">+61 04156 96 284</p>
+              <p className="text-sm tracking-wide">+61 041 5696 284</p>
             </div>
             <div className="flex flex-col items-center gap-3">
               <FaEnvelope className="text-4xl text-designColor" />
@@ -93,7 +93,7 @@ const Contact = () => {
           )}
           <div className="w-full py-10 bg-black flex flex-col md:flex-row px-4 md:items-center justify-between">
             <div className="text-lg font-thin">
-              <p>For project enquries</p>
+              <p>For enquries</p>
               <p>
                 or say 'Hello' -{" "}
                 <span className="font-semibold text-designColor">

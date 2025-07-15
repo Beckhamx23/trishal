@@ -44,8 +44,8 @@ const Banner = () => {
           }}
           className="w-full px-16 py-6 flex justify-between fixed top-0 z-40 bg-black bg-opacity-25"
         >
-          <h1 className="font-bodyFont text-4xl text-white font-extrabold border-2 w-12 text-center">
-            S
+          <h1 className="font-bodyFont text-1xl text-white font-extrabold border-4 w-16 mt-2 text-center">
+            Bashi
           </h1>
           <div
             onClick={() => setMenu(true)}

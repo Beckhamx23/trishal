@@ -13,7 +13,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Test blog | New Horizon</title>
+        <title>TRISHAL BASI | MULTIMEDIA DESIGNER</title>
         <link rel="icon" href="/smallLogo.ico" />
       </Head>
 

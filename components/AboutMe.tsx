@@ -13,25 +13,41 @@ const AboutMe = () => {
         <p className="text-xl md:text-3xl font-medium md:leading-relaxed text-textColor">
           I'm{" "}
           <span className="font-bold tracking-wider text-white">
-            Sarah Jonson
+            Trishal Basi
           </span>{" "}
-          and I'm a freelance{" "}
-          <span className="font-bold text-white">Web Designer</span>. Lorem
-          Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the
-          1500s, when an unknown printer took a galley of type and scrambled it
-          to make a type specimen book.
+          and I'm a {" "}
+          <span className="font-bold text-white">Multimedia Designer</span>. 
+          I’m a creative professional with 3 years of experience spanning graphic design, video editing, social media 
+          management, sales strategy, and website management. I’ve contributed to Kunyo Gears, Kunyo co,
+          Failure G.G, Kunyo Gaming Zone, Akku . GG 4merical Esports, Autonomous technology,
+          PCHUB Capital, Pinches Artcore, Gopali G.G International and 4MericalVibes Esports, 
+          blending creativity and business insight to deliver engaging content and support brand growth. Passionate about 
+          turning ideas into impactful visuals and strategies, I thrive on tackling new challenges across design, 
+          marketing, and sales.
         </p>
-        <div className="w-[700px] grid grid-cols-1 md:grid-cols-2 gap-8">
-          <AboutList title="Web design" />
-          <AboutList title="Graphic & print" />
-          <AboutList title="iOS design" />
-          <AboutList title="Front-end development" />
-          <AboutList title="User experience" />
-          <AboutList title="Branding" />
-          <AboutList title="Back-end development" />
-          <AboutList title="Responsive" />
-          <AboutList title="Wordpress Website" />
+        <div className="w-[1200px] grid grid-cols-1 md:grid-cols-3 gap-8">
+          <AboutList title="Graphic Design" />
+          <AboutList title="Video Editing" />
+          <AboutList title="UI Design " />
+          <AboutList title="Social Media Management" />
+          <AboutList title="Website Dev/ Management" />
+          <AboutList title="Sales Strategy" />
+        </div>
+          <div className="max-w-6xl mx-auto flex flex-col gap-6 md:gap-16">
+            <h1 className="text-3xl font-semibold text-center">
+          Tools I'm Proficient with;
+        </h1>
+          </div>
+          <div className="w-[1200px] grid grid-cols-1 md:grid-cols-3 gap-8">
+          <AboutList title="Adobe Photoshop" />
+          <AboutList title="Adobe Illustrator" />
+          <AboutList title="Adobe Indesign " />
+          <AboutList title="Adobe Premiere Pro" />
+          <AboutList title="Adobe After Effects" />
+          <AboutList title="Figma" />
+          <AboutList title="React JS" />
+          <AboutList title="Wordpress" />
+          <AboutList title="WooCommerce" />
         </div>
       </div>
     </section>

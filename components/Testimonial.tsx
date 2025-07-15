@@ -44,7 +44,7 @@ const Testimonial = () => {
                 height: "12px",
                 borderRadius: "50%",
                 cursor: "pointer",
-                border: "1px solid #F7D449",
+                border: "1px solid #0b028fff",
               }
             : {
                 width: "12px",
@@ -67,35 +67,23 @@ const Testimonial = () => {
           <Slider {...settings}>
             <div>
               <p className="text-xl text-textColor text-center leading-8">
-                <span className="text-white">Apple company CEO -</span> Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                doloribus sed asperiores commodi earum consectetur dolorem,
-                eligendi animi minus. Reprehenderit laboriosam ipsa quia
-                dignissimos voluptatum aliquid et repudiandae laborum impedit
-                perferendis quis, sapiente doloribus eaque maxime nemo facere?
-                At, facilis!
+                <span className="text-white">Kunal Timilsina, Kunyo Gears, CEO -</span> 
+                Trishal’s design work consistently exceeds expectations. Their ability to blend creativity with strategic thinking has really helped our brand stand out.
               </p>
             </div>
             <div>
               <p className="text-xl text-textColor text-center leading-8">
-                <span className="text-white">Google company CTO -</span> Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                doloribus sed asperiores commodi earum consectetur dolorem,
-                eligendi animi minus. Reprehenderit laboriosam ipsa quia
-                dignissimos voluptatum aliquid et repudiandae laborum impedit
-                perferendis quis, sapiente doloribus eaque maxime nemo facere?
-                At, facilis!
+                <span className="text-white">Prakash Timalsina, 4Merical Esports, COO -</span> Trishal’s skills in social media management and content creation boosted our online engagement significantly. Highly reliable and creative!
               </p>
             </div>
             <div>
               <p className="text-xl text-textColor text-center leading-8">
-                <span className="text-white">Amazon company CEO -</span> Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                doloribus sed asperiores commodi earum consectetur dolorem,
-                eligendi animi minus. Reprehenderit laboriosam ipsa quia
-                dignissimos voluptatum aliquid et repudiandae laborum impedit
-                perferendis quis, sapiente doloribus eaque maxime nemo facere?
-                At, facilis!
+                <span className="text-white">Abhinav Lamsal, Kunyo Co, MD -</span> With a strong grasp of both design and sales strategy, Trishal brings a unique perspective that drives real business results.
+              </p>
+            </div>
+             <div>
+              <p className="text-xl text-textColor text-center leading-8">
+                <span className="text-white">Bijay Timalsina, Akku . GG, Manager -</span> Trishal’s expertise in website management and video editing made our projects run smoothly and look professional. Truly a versatile and dedicated creative.
               </p>
             </div>
           </Slider>

@@ -86,6 +86,16 @@ const Testimonial = () => {
                 <span className="text-white">Bijay Timalsina, Akku . GG, Manager -</span> Trishal’s expertise in website management and video editing made our projects run smoothly and look professional. Truly a versatile and dedicated creative.
               </p>
             </div>
+            <div>
+              <p className="text-xl text-textColor text-center leading-8">
+                <span className="text-white">Asim Gyawali, Kunyo is Marketing, COO -</span>Trishal was a valuable part of our team. His creativity, consistency, and eye for detail brought our visuals to life. A reliable and skilled designer we truly enjoyed working with.
+              </p>
+            </div>
+             <div>
+              <p className="text-xl text-textColor text-center leading-8">
+                <span className="text-white">Sunil Kumar Thapa, Kunyo Gears, Head Technician -</span>Trishal led our operations with focus and creativity. He balanced management and design tasks effortlessly, making a strong impact on our workflow and growth.
+              </p>
+            </div>
           </Slider>
         </div>
       </div>

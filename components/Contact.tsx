@@ -91,23 +91,19 @@ const Contact = () => {
               </button>
             </form>
           )}
-          <div className="w-full py-10 bg-black flex flex-col md:flex-row px-4 md:items-center justify-between">
-            <div className="text-lg font-thin">
+          <div className="w-full py-10 flex flex-col md:flex-row px-4 md:items-center justify-between">
+            <div className="text-lg justify-center font-thin">
               <p>For enquries or Connect with me at</p>
               <p className="flex gap-2"> 
-                <FaEnvelope className="bg-designColor"/>
+                <FaEnvelope />
                 <span className="font-semibold">
                    trishaldesings@gmail.com
                 </span>
               </p>
-              <p className="flex">
-              <a href="https://www.behance.net/trishalbashi" target="_blank" className="flex gap-2"><FaBehance className="bg-designColor"/> <span className="font-semibold">Behance</span></a>
-              </p>
-              <p className="flex">
-              <a href="https://www.linkedin.com/in/trishal-basi-166652213" target="_blank" className="flex gap-2"><FaLinkedin className="bg-designColor"/> <span className="font-semibold">LinkedIn</span></a>
-              </p>
-              <p className="flex">
-              <a href="https://www.instagram.com/bashi.gfx" target="_blank" className="flex gap-2"><FaInstagram className="bg-designColor"/> <span className="font-semibold">Instagram</span></a>
+              <p className="flex gap-2 items-center">
+              <a href="https://www.behance.net/trishalbashi" target="_blank" className="flex gap-2"><FaBehance /> <span className="font-semibold">Behance</span></a>
+              <a href="https://www.linkedin.com/in/trishal-basi-166652213" target="_blank" className="flex gap-2"><FaLinkedin /> <span className="font-semibold">LinkedIn</span></a>
+              <a href="https://www.instagram.com/bashi.gfx" target="_blank" className="flex gap-2"><FaInstagram /> <span className="font-semibold">Instagram</span></a>
               </p>
               
             </div>

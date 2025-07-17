@@ -19,7 +19,7 @@ const AboutMe = () => {
           <span className="font-bold text-white">Multimedia Designer</span>. 
           I’m a creative professional with 3 years of experience spanning graphic design, video editing, social media 
           management, sales strategy, and website management. I’ve contributed to Kunyo Gears, Kunyo co,
-          Failure G.G, Kunyo Gaming Zone, Akku . GG 4merical Esports, Autonomous technology,
+          Failure G.G, Kunyo Gaming Zone, Akku . GG, Kunyo is Marketing, 4Merical Esports, Autonomous Technology,
           PCHUB Capital, Pinches Artcore, Gopali G.G International and 4MericalVibes Esports, 
           blending creativity and business insight to deliver engaging content and support brand growth. Passionate about 
           turning ideas into impactful visuals and strategies, I thrive on tackling new challenges across design, 

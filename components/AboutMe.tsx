@@ -25,14 +25,6 @@ const AboutMe = () => {
           turning ideas into impactful visuals and strategies, I thrive on tackling new challenges across design, 
           marketing, and sales.
         </p>
-        <div className="w-[1200px] grid grid-cols-1 md:grid-cols-3 gap-8">
-          <AboutList title="Graphic Design" />
-          <AboutList title="Video Editing" />
-          <AboutList title="UI Design " />
-          <AboutList title="Social Media Management" />
-          <AboutList title="Website Dev/ Management" />
-          <AboutList title="Sales Strategy" />
-        </div>
           <div className="max-w-6xl mx-auto flex flex-col gap-6 md:gap-16">
             <h1 className="text-3xl font-semibold text-center">
           Tools I'm Proficient with;

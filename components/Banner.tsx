@@ -65,7 +65,7 @@ const Banner = () => {
             <HiMinus className="text-2xl rotate-90" />
             <h2 className="tracking-[4px]">Social Media Manager</h2>
             <HiMinus className="text-2xl rotate-90" />
-            <h2 className="tracking-[4px]">Sales Strategist</h2>
+            <h2 className="tracking-[4px]">Brand Strategist</h2>
           </div>
         </div>
       </div>

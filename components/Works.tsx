@@ -6,7 +6,7 @@ const Works = () => {
   return (
     <section id="portfolio" className="w-full h-full bg-black text-white py-28">
       <h1 className="text-3xl uppercase tracking-[10px] font-semibold text-center">
-        Featured Works.
+        Featured Works
       </h1>
       <div className="w-full grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 h-full gap-6 lg:gap-0 mt-16 px-6">
         <div className="w-full h-full relative overflow-hidden group">

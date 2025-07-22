@@ -17,7 +17,7 @@ const Home: NextPage = () => {
          <link rel="icon" href="/smallLogo.ico" />
       </Head>
 
-      <div className="font-bodyFont w-full max-w-screen-2xl overflow-x-hidden touch-pan-y">
+      <div className="font-bodyFont w-full max-w-screen sm:w-full overflow-x-hidden touch-pan-y">
         <Banner />
         <AboutMe />
         <Offers />

@@ -29,6 +29,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Trishal Basi | Best Multimedia Designer in Sydney</title>
+        <meta name="google-site-verification" content="I7XMr-OrNDuwHYA-aAM0PdKYzEdaDgDVqgcJj-0PLd0" />
         <meta
           name="description"
           content="Trishal Basi is a Sydney-based multimedia designer offering top-quality graphic design, social media management, and branding services. Elevate your brand with creativity and professionalism."

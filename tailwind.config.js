@@ -23,5 +23,13 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        ".touch-pan-y": {
+          "touch-action": "pan-y",
+        },
+      });
+    },
+  ],
 };

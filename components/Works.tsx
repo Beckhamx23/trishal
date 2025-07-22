@@ -19,7 +19,7 @@ const Works = () => {
           <div className="w-full h-full relative bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
             <h1 className="text-2xl text-center absolute font-bold bg-black bg-opacity-20 rounded-xl px-6 py-2 absolute bottom-10 left-10 right-10">
                Kunyo Gears Website and Social Media
-            <p className="text-sm sm:hidden">
+            <p className="text-sm">
               I worked with Kunyo Gears for 2 years, designing content for social media, website banners, and promotional ads. I managed the website, ran ad campaigns, handled social media, and contributed to sales strategies to drive growth and engagement.
             </p>
          <div className="flex mt-2 gap-2 text-sm">

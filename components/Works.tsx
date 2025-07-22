@@ -15,19 +15,25 @@ const Works = () => {
             src={bgOne}
             alt="bgOne"
           />
-          <div className="absolute w-full h-full left-0 top-0 ">
-            <div className="w-full h-full relative bg-black bg-opacity-70 hidden group-hover:inline-block transition-opacity duration-500 md:text-sm">
-              <h1 className="text-2xl text-center absolute font-bold bg-black bg-opacity-20 rounded-xl px-6 py-2 absolute bottom-5 left-10 right-10">
-                Kunyo Gears Website and Social Media
-                <p className="text-sm">I worked with Kunyo Gears for 2 years, designing content for social media, website banners, and promotional ads. I managed the website, ran ad campaigns, handled social media, and contributed to sales strategies to drive growth and engagement.</p>
-                 <div className="flex mt-2 gap-2 text-sm">
-                  <a href="https://gears.kunyo.co" target="_blank" className="text-sm"> <FaLink/></a>
-                  <a href="https://instagram.com/kunyo_gears" target="_blank" className="text-sm"><FaInstagram /></a>
-                </div>
-              </h1>
-            </div>
+          <div className="absolute w-full h-full left-0 top-0">
+          <div className="w-full h-full relative bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            <h1 className="text-xl sm:text-2xl text-center absolute font-bold bg-black bg-opacity-20 rounded-xl px-4 sm:px-6 py-2 bottom-4 sm:bottom-5 left-4 sm:left-10 right-4 sm:right-10">
+               Kunyo Gears Website and Social Media
+            <p className="text-xs sm:text-sm mt-2">
+              I worked with Kunyo Gears for 2 years, designing content for social media, website banners, and promotional ads. I managed the website, ran ad campaigns, handled social media, and contributed to sales strategies to drive growth and engagement.
+            </p>
+         <div className="flex mt-2 gap-2 justify-center text-sm">
+            <a href="https://gears.kunyo.co" target="_blank" rel="noreferrer" className="text-sm">
+            <FaLink />
+            </a>
+            <a href="https://instagram.com/kunyo_gears" target="_blank" rel="noreferrer" className="text-sm">
+           <FaInstagram />
+            </a>
           </div>
+          </h1>
         </div>
+      </div>
+    </div>
         <div className="w-full h-full relative overflow-hidden group">
           <Image
             className="w-full h-full object-cover scale-125 group-hover:scale-100 duration-500"

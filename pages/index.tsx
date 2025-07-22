@@ -14,10 +14,10 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>TRISHAL BASI | MULTIMEDIA DESIGNER</title>
-        <link rel="icon" href="/smallLogo.ico" />
+         <link rel="icon" href="/smallLogo.ico" />
       </Head>
 
-      <div className="font-bodyFont">
+      <div className="font-bodyFont w-full max-w-screen-2xl overflow-x-hidden">
         <Banner />
         <AboutMe />
         <Offers />

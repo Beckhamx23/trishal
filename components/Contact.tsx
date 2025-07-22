@@ -26,10 +26,10 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-full h-[800px] bg-contact-image bg-no-repeat bg-cover bg-fixed text-white px-4 relative"
+      className="w-full bg-contact-image bg-no-repeat bg-cover bg-fixed text-white px-4 relative"
     >
-      <div className="w-full h-full bg-black bg-opacity-80 py-20">
-        <div className="max-w-6xl h-full mx-auto flex flex-col gap-6 md:gap-12">
+      <div className="w-full bg-black bg-opacity-80 py-20">
+        <div className="max-w-6xl mx-auto flex flex-col gap-6 md:gap-12">
           <h1 className="text-3xl font-thin tracking-widest uppercase text-center">
             Say Hello!
           </h1>
@@ -91,27 +91,40 @@ const Contact = () => {
               </button>
             </form>
           )}
-          <div className="w-full py-10 flex flex-col md:flex-row px-4 md:items-center justify-between">
-            <div className="text-lg justify-center font-thin">
-              <p>For enquries or Connect with me at</p>
-              <p className="flex gap-2"> 
-                <FaEnvelope />
-                <span className="font-semibold">
-                   trishaldesigns@gmail.com
-                </span>
-              </p>
-              <p className="flex gap-2 items-center">
-              <a href="https://www.behance.net/trishalbashi" target="_blank" className="flex gap-2"><FaBehance /> <span className="font-semibold">Behance</span></a>
-              <a href="https://www.linkedin.com/in/trishal-basi-166652213" target="_blank" className="flex gap-2"><FaLinkedin /> <span className="font-semibold">LinkedIn</span></a>
-              <a href="https://www.instagram.com/bashi.gfx" target="_blank" className="flex gap-2"><FaInstagram /> <span className="font-semibold">Instagram</span></a>
-              </p>
-              
-            </div>
-            <a href="https://instagram.com/bashi.gfx" target="_blank">
-              <p>© 2025 Bashix23 All rights reserved.</p>
-            </a>
-          </div>
-        </div>
+  <div className="w-full px-4 flex flex-col md:flex-row md:items-center md:justify-between text-center md:text-left gap-4">
+  {/* Left Content */}
+  <div className="flex flex-col items-center md:items-start gap-2 text-sm">
+    <p>For enquiries or connect with me at:</p>
+    
+    <p className="flex items-center gap-2 justify-center md:justify-start">
+      <FaEnvelope />
+      <span className="font-semibold">trishaldesigns@gmail.com</span>
+    </p>
+
+    <div className="flex gap-4 justify-center md:justify-start flex-wrap">
+      <a href="https://www.behance.net/trishalbashi" target="_blank" className="flex items-center gap-2">
+        <FaBehance />
+        <span className="font-semibold">Behance</span>
+      </a>
+      <a href="https://www.linkedin.com/in/trishal-basi-166652213" target="_blank" className="flex items-center gap-2">
+        <FaLinkedin />
+        <span className="font-semibold">LinkedIn</span>
+      </a>
+      <a href="https://www.instagram.com/bashi.gfx" target="_blank" className="flex items-center gap-2">
+        <FaInstagram />
+        <span className="font-semibold">Instagram</span>
+      </a>
+    </div>
+  </div>
+
+  {/* Right Content */}
+  <div className="text-center md:text-right w-full md:w-auto">
+    <a href="https://instagram.com/bashi.gfx" target="_blank" rel="noopener noreferrer">
+      <p className="text-sm mt-4 md:mt-0">© 2025 Bashix23 All rights reserved.</p>
+    </a>
+  </div>
+</div>
+</div>
       </div>
     </section>
   );

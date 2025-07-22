@@ -62,7 +62,7 @@ const Works = () => {
               priority={idx === 0}
             />
             <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-3 sm:p-6">
-              <h1 className="text-base sm:text-xl font-bold bg-black bg-opacity-50 rounded-xl px-3 py-1 sm:px-4 sm:py-2 truncate">
+              <h1 className="text-sm sm:text-base md:text-xl font-bold bg-black bg-opacity-50 rounded-xl px-3 py-1 sm:px-4 sm:py-2 whitespace-normal break-words">
                 {title}
               </h1>
               <p className="mt-1 text-[10px] sm:text-xs leading-snug text-textColor max-w-full line-clamp-4">

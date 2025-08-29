@@ -55,7 +55,7 @@ const Offers = () => {
 
           <AboutList title="Consistent design system" />
           <AboutList title="Brand Guidelines" />
-          <AboutList title="Consistent Design System " />
+          <AboutList title="Consistent followup" />
           <AboutList title="Visual Identity" />
 
         </div>

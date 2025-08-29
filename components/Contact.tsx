@@ -48,7 +48,7 @@ const Contact = () => {
             </div>
           </div>
 
-          {successMsg ? (
+          {/* {successMsg ? (
             <motion.p
               initial={{ y: 50, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -90,7 +90,7 @@ const Contact = () => {
                 Submit Now
               </button>
             </form>
-          )}
+          )} */}
   <div className="w-full px-4 flex flex-col md:flex-row md:items-center md:justify-between text-center md:text-left gap-4">
   {/* Left Content */}
   <div className="flex flex-col items-center md:items-start gap-2 text-sm">
